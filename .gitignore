@@ -1,0 +1,7 @@
+data/
+datasets/
+**/*.jpg
+**/*.png
+**/*.jpeg
+**/*.bmp
+**/*.gif
