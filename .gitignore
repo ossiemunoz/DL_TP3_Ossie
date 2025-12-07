@@ -1,7 +1,119 @@
+# ============================
+#  TP3 Deep Learning - Ossie
+#  Git Ignore File (Premium)
+# ============================
+
+##########
+# GENERAL
+##########
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+##########
+# PYTHON
+##########
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+
+##########
+# VIRTUAL ENVS
+##########
+.env
+.venv
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+
+##########
+# JUPYTER NOTEBOOKS
+##########
+.ipynb_checkpoints/
+# Exported outputs
+*.nbconvert.ipynb
+
+##########
+# TORCH / MODELS / CHECKPOINTS
+##########
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+saved_models/
+runs/
+lightning_logs/
+logs/
+
+##########
+# DATASETS (EXCLUSIÓN TOTAL)
+##########
+# Directorios típicos
 data/
+dataset/
 datasets/
+input/
+inputs/
+raw/
+processed/
+# Archivos de imagen (sueltos en cualquier carpeta)
 **/*.jpg
-**/*.png
 **/*.jpeg
+**/*.png
 **/*.bmp
 **/*.gif
+**/*.tiff
+**/*.webp
+**/*.ppm
+
+##########
+# COLAB
+##########
+# Archivos de Colab / Google Drive mounts
+*.json
+drive/
+gdrive/
+
+##########
+# VS CODE
+##########
+.vscode/
+.code/
+.history/
+
+##########
+# WSL / LINUX
+##########
+*.out
+*.o
+*.so
+
+##########
+# PLOTS / REPORT ASSETS
+##########
+figures/
+plots/
+images_generated/
+*.svg
+*.pdf
+*.eps
+
+##########
+# CACHE VARIA
+##########
+.cache/
+.mypy_cache/
+.pytest_cache/
+.l2f_cache/
+huggingface/
+transformers_cache/
+torch_cache/
